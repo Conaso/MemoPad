@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC427AD920B13FC300034E9D /* 509b5ba6cd3650d69bada8dfa67aefb5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC427AD820B13FC300034E9D /* 509b5ba6cd3650d69bada8dfa67aefb5.png */; };
 		EC5E46D820B1091200918EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E46D720B1091200918EA0 /* AppDelegate.swift */; };
 		EC5E46DA20B1091200918EA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E46D920B1091200918EA0 /* ViewController.swift */; };
 		EC5E46DD20B1091200918EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5E46DB20B1091200918EA0 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		EC5E46E220B1091300918EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5E46E020B1091300918EA0 /* LaunchScreen.storyboard */; };
 		EC5E46ED20B1091300918EA0 /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E46EC20B1091300918EA0 /* MemoPadTests.swift */; };
 		EC5E46F820B1091300918EA0 /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E46F720B1091300918EA0 /* MemoPadUITests.swift */; };
+		EC5E470620B1096C00918EA0 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E470520B1096C00918EA0 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC427AD820B13FC300034E9D /* 509b5ba6cd3650d69bada8dfa67aefb5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 509b5ba6cd3650d69bada8dfa67aefb5.png; sourceTree = "<group>"; };
 		EC5E46D420B1091200918EA0 /* MemoPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5E46D720B1091200918EA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC5E46D920B1091200918EA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		EC5E46F320B1091300918EA0 /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5E46F720B1091300918EA0 /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		EC5E46F920B1091300918EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5E470520B1096C00918EA0 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		EC5E46D620B1091200918EA0 /* MemoPad */ = {
 			isa = PBXGroup;
 			children = (
+				EC427AD820B13FC300034E9D /* 509b5ba6cd3650d69bada8dfa67aefb5.png */,
 				EC5E46D720B1091200918EA0 /* AppDelegate.swift */,
 				EC5E46D920B1091200918EA0 /* ViewController.swift */,
 				EC5E46DB20B1091200918EA0 /* Main.storyboard */,
 				EC5E46DE20B1091300918EA0 /* Assets.xcassets */,
 				EC5E46E020B1091300918EA0 /* LaunchScreen.storyboard */,
 				EC5E46E320B1091300918EA0 /* Info.plist */,
+				EC5E470520B1096C00918EA0 /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC427AD920B13FC300034E9D /* 509b5ba6cd3650d69bada8dfa67aefb5.png in Resources */,
 				EC5E46E220B1091300918EA0 /* LaunchScreen.storyboard in Resources */,
 				EC5E46DF20B1091300918EA0 /* Assets.xcassets in Resources */,
 				EC5E46DD20B1091200918EA0 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			files = (
 				EC5E46DA20B1091200918EA0 /* ViewController.swift in Sources */,
 				EC5E46D820B1091200918EA0 /* AppDelegate.swift in Sources */,
+				EC5E470620B1096C00918EA0 /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
